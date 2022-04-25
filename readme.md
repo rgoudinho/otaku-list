@@ -1,0 +1,3 @@
+## OtakuList
+
+Esse app servirá para adicionar e listar animes (futuramente outros tipos de conteúdo também) que o usuário assistiu, gostaria de assistir, abandonou ou está assistindo. Os animes serão adicionados pelo próprio usuário com os dados do anime como, nome, gênero, estúdio, quantidade de episódios e outros. No perfil de usuário terá estatísticas com os dados registrados pelo usuário, como quantidade total de episódios assistidos, comparação entre animes abandonados e assistidos, entre outros.
