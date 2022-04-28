@@ -1,7 +1,7 @@
-import { View, Text, StyleSheet, Button} from "react-native";
+import { View, Text, StyleSheet, Button } from "react-native";
 import React from "react";
 
-export default function NewWork() {
+export default function NewWorkGen() {
   return (
     <View style={styles.container}>
       <Text>Essa pagina ainda está em fase de desenvolvimento</Text>

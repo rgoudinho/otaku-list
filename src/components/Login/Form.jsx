@@ -10,7 +10,7 @@ export default function Form({ navigation }) {
   };
 
   const handleList = () => {
-    if (tvEmail === "teste@email" && tvPassword === "123")
+    //if (tvEmail === "teste@email" && tvPassword === "123")
       navigation.navigate("RoutesTab");
   };
 
