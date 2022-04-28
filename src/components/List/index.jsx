@@ -5,9 +5,9 @@ import Listing from "./Listing";
 
 export default function List() {
   return (
-    <View style={styles.container}>
+    //<View style={styles.container}>
       <Listing />
-    </View>
+    //</View>
   );
 }
 

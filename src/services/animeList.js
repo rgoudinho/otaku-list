@@ -10,3 +10,5 @@ const animeList = [
     {id: 9, title: "Josee to Tora to Sakana-tachi", studio:"Bones", totalEpisodeAmount: 1, numberEpisodesSeen: 1},
     {id: 10, title: "Made in Abyss", studio:"Kinema Citrus", totalEpisodeAmount: 13, numberEpisodesSeen: 13},
 ]
+
+export default animeList;

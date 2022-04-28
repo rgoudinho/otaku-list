@@ -11,7 +11,7 @@ import animes from "../../services/animeList";
 export default function Listing() {
   const Item = ({ item }) => {
     return (
-      <View style={stiles.item}>
+      <View style={styles.item}>
         <Text>{item.title}</Text>
         <Text>{item.studio}</Text>
         <Text>
@@ -22,13 +22,13 @@ export default function Listing() {
   };
 
   return (
-    <View>
+    // <View>
       <FlatList
         data={animes}
-        renderItem={( anime ) => <Item item={anime} />}
-        keyExtractor={(anime) => anime.id.toString()}
+        renderItem={({ item }) => <Item item={item} />}
+        keyExtractor={(item) => item.id.toString()}
       />
-    </View>
+    // </View> 
   );
 }
 

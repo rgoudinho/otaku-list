@@ -5,12 +5,12 @@ import ListComponent from "../../components/List";
 
 export default function List() {
   return (
-    <View>
+    <View style={styles.container}>
       <ListComponent />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-
+  container: {flex: 1,},
 });
